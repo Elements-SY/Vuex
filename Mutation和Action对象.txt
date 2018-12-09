@@ -1,0 +1,1 @@
+Vuex里的事件注册，就是当需要调用事件时使用commit()和dispatch()两个方法，在这两个方法中分别传递事件的名称即可。前者同步。后则是异步，也就是如果是Mutation对象里的方法则使用commit()方法去调用Mutation对象里的方法，如果是Action对象里的方法则使用dispatch()方法调用Action对象里的方法。
